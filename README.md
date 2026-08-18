@@ -19,7 +19,7 @@ utilizando alguns dos principais serviços da AWS:
 - Amazon EC2 para hospedar a API REST .NET
 - Security Groups para controle do tráfego de rede
 - Amazon RDS PostgreSQL para persistência dos dados
-- Amazon S3 para hospedagem do front-end
+- Preparação para hospedagem do front-end
 - Amazon CloudWatch para monitoramento
 
 ## Organização
@@ -32,6 +32,10 @@ O conteúdo será organizado de acordo com os Estudos Dirigidos:
 - ED4 - Criação do Amazon RDS PostgreSQL
 - ED5 - Conexão da EC2 com o PostgreSQL
 - ED6 - Integração da API .NET com o RDS
+- ED7 - Preparação do frontend
+- ED8 - Visualização do frontend produtos
+- ED9 - Cadastro de produtos pelo frontend
+- ED10 - Monitorando a Aplicação com Amazon CloudWatch
 
 Novos arquivos serão adicionados conforme o desenvolvimento dos laboratórios.
 
@@ -40,13 +44,3 @@ Novos arquivos serão adicionados conforme o desenvolvimento dos laboratórios.
 Os endereços IP, endpoints, identificadores e demais informações
 específicas da AWS apresentados nos laboratórios podem ser diferentes
 em cada conta.
-
-Nunca publique neste repositório:
-
-- Senhas
-- Chaves privadas (.pem)
-- AWS Access Keys
-- Secrets
-- Credenciais de banco de dados
-
-Utilize sempre os valores correspondentes ao seu próprio ambiente AWS.
